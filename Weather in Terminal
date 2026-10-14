@@ -1,0 +1,1 @@
+import sys,requests;print(requests.get(f'https://wttr.in/{sys.argv[1] if len(sys.argv)>1 else ""}?format=3').text)
